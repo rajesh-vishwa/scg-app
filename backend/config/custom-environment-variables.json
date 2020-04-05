@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "scg_api_jwtPrivateKey",
+  "dbConn": "scg_api_mongoDb_connection"
+}

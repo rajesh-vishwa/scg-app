@@ -1,0 +1,4 @@
+{
+  "dbConn": "mongodb://localhost:27017/scg",
+  "jwtPrivateKey": "jwtPrivateKey_development"
+}
