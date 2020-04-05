@@ -1,0 +1,36 @@
+.aboutContainer {
+  display: block;
+  text-align: center;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.content {
+  font-family: "Montserrat";
+  font-size: 2vw;
+  text-align: justify;
+  letter-spacing: 3px;
+  margin: 2%;
+}
+
+@media screen and (min-width: 480px) {
+  .aboutContainer {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutContainer {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+
+  .content {
+    font-family: "Montserrat";
+    font-size: 4vw;
+    text-align: justify;
+    letter-spacing: 2px;
+    margin: 1%;
+  }
+}
